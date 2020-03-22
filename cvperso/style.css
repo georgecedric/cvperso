@@ -3,6 +3,16 @@
     float: left;
     width: 25%;
 }
+
+.bluecolumn img{
+    vertical-align: middle;
+    width: 10%;
+} 
+
+.bluecolumn strong{
+    font-size: large;
+    font-weight: bold;
+} 
 .bluecolumn h2{
     background-color: black;
     color:#17a4b0;
@@ -12,7 +22,7 @@
 }
 
 .bluecolumn p{
-   
+    text-indent: 15px;
     text-align: justify;
     padding-left: 15px;
     padding-right: 15px;
