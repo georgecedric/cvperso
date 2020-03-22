@@ -1,0 +1,19 @@
+.bluecolumn {
+    background-color: #17a4b0;
+    float: left;
+    width: 25%;
+}
+.bluecolumn h2{
+    background-color: black;
+    color:#17a4b0;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.bluecolumn p{
+   
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
