@@ -8,6 +8,7 @@ ul{
 a {
     color:black;
 }
+
 .bluecolumn {
     background-color: #17a4b0;
     float: left;
@@ -17,7 +18,11 @@ a {
 .bluecolumn img{
     vertical-align: middle;
     width: 10%;
+  
 } 
+
+
+
 .photoperso{
     text-align: center;
 }
@@ -54,3 +59,33 @@ a {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-right: 20px;
+    
+}
+
+.cursor {
+    display: flex;
+    
+}
+
+.rectangle{
+	width:20px;
+	height:10px;
+    background:white;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.rectangleblue{
+	width:20px;
+	height:10px;
+    background:#0b585e;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
