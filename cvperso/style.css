@@ -1,8 +1,16 @@
-li{
+body
+{
+    font-family: Arial;
+    display: flex;
+}
+
+
+
+.bluecolumn li{
     margin-bottom: 20px;
 }
 
-ul{
+.bluecolumn  ul{
     list-style-type: none; 
 }
 a {
@@ -18,8 +26,10 @@ a {
 .bluecolumn img{
     vertical-align: middle;
     width: 10%;
+    box-shadow: 1px 1px 10px rgb(100, 96, 96);
   
 } 
+
 
 
 
@@ -79,6 +89,7 @@ a {
     background:white;
     border: 1px solid black;
     vertical-align: middle;
+    box-shadow: 1px 1px 10px rgb(100, 96, 96);
 }
 
 .rectangleblue{
@@ -87,5 +98,72 @@ a {
     background:#0b585e;
     border: 1px solid black;
     vertical-align: middle;
+    box-shadow: 1px 1px 10px rgb(100, 96, 96);
 }
 
+
+.partiecv {
+    padding-left: 40px
+}
+
+.partiecv h1{
+    font-size:60px; 
+}
+
+.partiecv h1  em{
+    color:#17a4b0;
+    font-style: normal;
+}
+.partiecv h2{
+    font-size:40px;
+    margin-top: -40px;  
+}
+h2 em{
+    border-bottom:3px solid #17a4b0;
+    font-style: normal;
+}
+
+.description{
+    color:#17a4b0;
+    font-style: italic;
+    margin-top: -20px; 
+    font-size: 20px; 
+}
+
+.experience{
+    margin-top: 55px;
+}
+h2 strong {
+    color:#17a4b0;
+    margin-top: 140px;
+    font-size:50px;
+}
+#trait_dessus {
+     border-top: 5px solid #17a4b0;
+      width :190%;
+      margin-top: -35px;
+     }
+
+.partiecv li{
+        font-style: italic;
+}
+
+.cvtexte {
+    display: flex;
+    align-items: center; 
+    margin-right: 20px;
+}
+
+.rectanglenoir{
+    width:80px;
+    height:110px;
+    padding-top: 5px;
+    background:black;
+    color:#17a4b0;
+    font-size:110%;
+    text-align: center;
+}
+
+.postedescription{
+    margin-left: 30px;
+}
