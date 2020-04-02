@@ -59,12 +59,12 @@ a {
 
 }
 
-.bluecolumn strong{
+ .bold{
     font-size: large;
     font-weight: bold;
 } 
 
-.bluecolumn em{
+.italic{
     font-style: italic;
 } 
 .bluecolumn h1{
