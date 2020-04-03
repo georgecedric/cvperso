@@ -125,7 +125,7 @@ a {
     font-size:60px; 
 }
 
-.partiecv h1  em{
+.blueword{
     color:#17a4b0;
     font-style: normal;
 }
@@ -133,7 +133,7 @@ a {
     font-size:40px;
     margin-top: -40px;  
 }
-h2 em{
+.blueline {
     border-bottom:3px solid #17a4b0;
     font-style: normal;
 }
@@ -146,7 +146,7 @@ h2 em{
 }
 
 .experience{
-    margin-top: 65px;
+    padding-top: 50px;
 }
 h2 strong {
     color:#17a4b0;
