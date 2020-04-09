@@ -1,18 +1,10 @@
 body
 {
     font-family: Arial;
-    box-align: center;
     background-image: radial-gradient(circle at center, white, #0b585e);   
 }
 
-.cvcode{
-    display: flex;
-    width: 80%; 
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 2px 2px 10px rgb(white);
-}
+
 
 .bluecolumn li{
     margin-bottom: 20px;
@@ -94,15 +86,15 @@ a {
     box-shadow: 1px 1px 10px rgb(100, 96, 96);
 }
 
-
-.partiecv {
+main {
     background-color: white;
-    width: 65%;
+    width: 62%;
     padding-left:40px;
+    float:right;
 
 }
 
-.partiecv h1{
+main h1{
     font-size:60px; 
 }
 
@@ -110,7 +102,7 @@ a {
     color:#17a4b0;
     font-style: normal;
 }
-.partiecv h2{
+main h2{
     font-size:40px;
     margin-top: -40px;  
 }
@@ -135,14 +127,13 @@ h2 strong {
     margin-top: 140px;
     font-size:50px;
 }
-#trait_dessus {
+.trait_dessus {
      border-top: 5px solid #17a4b0;
       width :100%;
       margin-top: -35px;
      }
 
-.partiecv ul{
-    
+main ul {
     margin-top: -10px;
     list-style-type: none;
 }
@@ -193,11 +184,20 @@ h2 strong {
     color: black;
 }
 
-.photoperso img{
+
+.cvcode{
+    display: flex;
+    width: 80%; 
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(white);
+}
+figure img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    
     border-radius: 50%;
     margin-top: 20px;
     box-shadow: 2px 2px 10px rgb(100, 96, 96);
