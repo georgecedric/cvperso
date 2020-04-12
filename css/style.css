@@ -1,5 +1,4 @@
-body
-{
+body {
     font-family: Arial;
     background-image: radial-gradient(circle at center, white, #0b585e);   
 }
@@ -139,12 +138,13 @@ main ul {
 }
 
 
-.cvtexte {
+.description-experience{
     align-items: center; 
     margin-top: 20px;
 }
 
 .rectanglenoir{
+    position:relative;
     width:90px;
     height:110px;
     padding-top: 5px;
@@ -154,22 +154,23 @@ main ul {
     text-align: center;
     float: left;
     margin-right: 20px;
+    
 }
 
 .month{
-    padding-top:25px;
+    padding-top: 25px;
 }
-.cvtexte ul{
+.description-experience ul{
     margin-left: 100px;
     width:100%; 
     
 }
 
-.cvtexte li{
+.description-experience li{
     font-style: italic;
 }
 
-.cvtexte h3{
+.description-experience h3{
     
     width:100%;
     
@@ -177,7 +178,7 @@ main ul {
     
 }
 
-.cvtexte strong{
+.description-experience strong{
     text-align : right;
     font-weight: bold;
     
