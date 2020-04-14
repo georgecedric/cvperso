@@ -1,8 +1,22 @@
 body {
-    font-family: Arial;
-    background-image: radial-gradient(circle at center, white, #0b585e);   
+    background-image: radial-gradient(circle at center, white, #0b585e);
+    font-family: Arial;  
+    display: flex;    
+    
+}
+main {
+    
+    background-color: white;
+    width: 62%;
+    padding-left:40px;
+    float:right;
 }
 
+figure{
+    display: flex;
+    background-color: #17a4b0;
+    width: 75%;
+}
 
 
 .bluecolumn li{
@@ -19,17 +33,9 @@ a {
 
 .bluecolumn {
     background-color: #17a4b0;
-    float: left;
+    
     width: 35%;
 }
-
-.bluecolumn img{
-    vertical-align: middle;
-    width: 10%;
-    box-shadow: 1px 1px 10px rgb(100, 96, 96);
-  
-} 
-
 
  .bold{
     font-size: large;
@@ -85,13 +91,7 @@ a {
     box-shadow: 1px 1px 10px rgb(100, 96, 96);
 }
 
-main {
-    background-color: white;
-    width: 62%;
-    padding-left:40px;
-    float:right;
 
-}
 
 main h1{
     font-size:60px; 
@@ -195,13 +195,21 @@ main ul {
     box-shadow: 2px 2px 10px rgb(white);
 }
 figure img{
+    
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
     border-radius: 50%;
     margin-top: 20px;
     box-shadow: 2px 2px 10px rgb(100, 96, 96);
     border: 2px solid rgb(100, 96, 96);
 
+}
+
+
+div img {
+    vertical-align: middle;
+    width: 10%;
+    box-shadow: 1px 1px 10px rgb(100, 96, 96);
 }
