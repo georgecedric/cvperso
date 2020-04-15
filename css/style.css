@@ -1,8 +1,8 @@
 body {
-    background-image: radial-gradient(circle at center, white, #0b585e);
-    font-family: Arial;  
-    display: flex;    
-    
+    display: flex;
+    margin: 50px;
+    font-family: Arial;
+    background-image: radial-gradient(circle at center, white, #0b585e);           
 }
 
 main:nth-child(1) {
@@ -18,21 +18,24 @@ main:nth-child(1) {
     background-color: #17a4b0;
 }
 
-
-
-
-figure{
+figure {
     margin: auto;
+    width: 85%;
     background-color: #17a4b0;
-    width: 75%;
+}
+
+address {
+    padding: 20px;
 }
 
 
-.bluecolumn li{
+
+
+.bluecolumn li {
     margin-bottom: 20px;
 }
 
-.bluecolumn  ul{
+.bluecolumn  ul { 
     list-style-type: none; 
 }
 
@@ -40,17 +43,16 @@ a {
     color:black;
 }
 
-
-
- .formation strong{
+.formation strong {
     font-size: large;
     font-weight: bold;
 } 
 
-.italic{
+.italic {
     font-style: italic;
 } 
-.bluecolumn h2{
+
+.bluecolumn h2 {
     background-color: black;
     color:#17a4b0;
     text-align: center;
@@ -58,7 +60,7 @@ a {
     padding-bottom: 6px;
 }
 
-.bluecolumn p{
+.bluecolumn p {
     text-indent: 15px;
     text-align: justify;
     padding-left: 15px;
@@ -197,8 +199,9 @@ main ul {
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 2px 2px 10px rgb(white);
+    box-shadow: 2px 2px 10px white;
 }
+
 figure img{
     
     width: 50%;
@@ -217,4 +220,9 @@ div img {
     vertical-align: middle;
     width: 10%;
     box-shadow: 1px 1px 10px rgb(100, 96, 96);
+}
+
+address img {
+    box-shadow: none;
+    margin :5px;
 }
