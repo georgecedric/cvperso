@@ -4,16 +4,25 @@ body {
     display: flex;    
     
 }
-main {
-    
-    background-color: white;
-    width: 62%;
+
+main:nth-child(1) {
+    order: 2;
+    flex: 2;
     padding-left:40px;
-    float:right;
+    background-color: white;
 }
 
+.bluecolumn:nth-child(2) {
+    order: 1;
+    flex: 1;
+    background-color: #17a4b0;
+}
+
+
+
+
 figure{
-    display: flex;
+    margin: auto;
     background-color: #17a4b0;
     width: 75%;
 }
@@ -31,11 +40,7 @@ a {
     color:black;
 }
 
-.bluecolumn {
-    background-color: #17a4b0;
-    
-    width: 35%;
-}
+
 
  .formation strong{
     font-size: large;
