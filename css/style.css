@@ -6,55 +6,36 @@ body {
     background-image: radial-gradient(circle at center, white, #0b585e);        
 }
 
+
 header:nth-child(1) {
     order: 1;
     padding: 20px;
     background-color: white;
 }
 
-figure:nth-child(2) {
-    order: 2;
-    margin: auto;
-    padding: 20px;
-    background-color: #17a4b0;
-}
 
-main:nth-child(3) {
-    order: 4;
+
+main:nth-child(2) {
+    order: 3;
     background-color: white;
 }
 
-.apropos:nth-child(4) {
-    order: 3;
+.apropos:nth-child(3) {
+    order: 2;
     background-color: #17a4b0;
 }
 
-.formation:nth-child(5) {
-    order: 5;
+.bluecolumn:nth-child(4) {
+    order: 4;
     background-color: #17a4b0;
     
 }
 
-.recommandation:nth-child(6) {
-    order: 6;
-    background-color: white;
-}
-
-
-.atout:nth-child(7) {
-    order: 7;
+figure {
+    margin: -20px;
+    padding: 20px;
     background-color: #17a4b0;
 }
-
-.interet:nth-child(8) {
-    order: 8;
-    background-color: #17a4b0;
-}
-.contact:nth-child(9) {
-    order: 9;
-    background-color: #17a4b0;
-}
-
 
 h1 {
     font-size:30px; 
@@ -213,3 +194,70 @@ a {
     box-shadow: none;
     width:100%;
 }
+
+
+    
+  
+  @media (min-width: 768px) {
+    
+    body {
+ 
+    display: flex;
+    flex-flow: row wrap;
+    }
+
+
+    header:nth-child(1) {
+        display: flex;
+        order: -1;
+        padding: 20px;
+        background-color: white;
+}
+
+    figure:nth-child(2){
+        order: 1;
+        flex:1;
+    }
+    .titre:nth-child(1) {
+        order: 2;
+        flex: 2;
+    }
+
+    main:nth-child(2) {
+        order: 2;
+        flex:2;
+        
+        background-color: white;
+    }
+    
+    .apropos:nth-child(3) {
+        order: 3;
+        
+        background-color: #17a4b0;
+    }
+    
+    .bluecolumn:nth-child(4) {
+        order: 1;
+        flex:1;
+        align-content: stretch;
+        background-color: #17a4b0;
+        
+    }
+
+    .rectanglenoir {
+        margin-left: 20px; 
+    }
+    figure {
+        margin-right: 60px;
+    }
+    .interet:nth-child(4){
+        align-self: flex-end;
+    }
+
+  }
+  @media (min-width: 992px) {
+    
+  }
+  @media (min-width: 1200px) {
+    
+  }
