@@ -247,6 +247,9 @@ a {
         align-self: flex-end;
     }
 
+    h1, h2, p {
+        text-align: left;
+    }
   }
   @media (min-width: 992px) {
     
