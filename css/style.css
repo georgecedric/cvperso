@@ -20,13 +20,10 @@ main:nth-child(2) {
     background-color: white;
 }
 
-.apropos:nth-child(3) {
-    order: 2;
-    background-color: #17a4b0;
-}
 
-.bluecolumn:nth-child(4) {
-    order: 4;
+
+.bluecolumn:nth-child(3) {
+    order: 2;
     background-color: #17a4b0;
     
 }
@@ -230,13 +227,9 @@ a {
         background-color: white;
     }
     
-    .apropos:nth-child(3) {
-        order: 3;
-        
-        background-color: #17a4b0;
-    }
     
-    .bluecolumn:nth-child(4) {
+    
+    .bluecolumn:nth-child(3) {
         order: 1;
         flex:1;
         align-content: stretch;
