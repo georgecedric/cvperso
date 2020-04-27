@@ -6,25 +6,30 @@ body {
     background-image: radial-gradient(circle at center, white, #0b585e);        
 }
 
-
 header:nth-child(1) {
     order: 1;
     padding: 20px;
     background-color: white;
 }
 
-
-
 main:nth-child(2) {
     order: 3;
     background-color: white;
 }
 
-
-
 .bluecolumn:nth-child(3) {
     order: 2;
-    background-color: #17a4b0;
+    background-color: #17a4b0; 
+    
+      
+}
+
+.postedescription
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    
     
 }
 
@@ -43,6 +48,9 @@ h3 {
     padding-bottom: 6px;
     color:#17a4b0;
     background-color: black;
+}
+h3 strong {
+    color:#17a4b0;
 }
 
 .blueword{
@@ -69,17 +77,16 @@ h3 {
     }
 
 main h3 {
-    margin-top: 30px;
-    background-color: #17a4b0;
+    
+    background-color: white;
     color:black;
 }
 
 .rectanglenoir {
-    float: left;
-    margin-right: 20px;
+    margin-right: 10px;
     padding-top: 5px;
     width:90px;
-    height:125px;
+    height:230px;
     text-align: center;
     font-size:110%;
     color:#17a4b0;
@@ -201,6 +208,7 @@ a {
  
     display: flex;
     flex-flow: row wrap;
+    
     }
 
 
@@ -232,15 +240,13 @@ a {
     .bluecolumn:nth-child(3) {
         order: 1;
         flex:1;
-        align-content: stretch;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
         background-color: #17a4b0;
         
     }
 
-    .bluecolumn {
-        display: flex;
-        flex-direction: column;
-    }
         .apropos:nth-child(1) {
             order:2;
         }
@@ -254,7 +260,6 @@ a {
         }
         .interet:nth-child(4) {
             order:5;
-            align-self: flex-end;
         }
 
         .contact:nth-child(5) {
@@ -263,7 +268,13 @@ a {
 
     .rectanglenoir {
         margin-left: 20px; 
+        height:130px;
     }
+
+    .experience-professionnelle {
+        margin-top: -20px;
+    }
+
     figure {
         margin-right: 60px;
         
@@ -287,10 +298,15 @@ a {
         margin-left: 20px;
     }
 
+    main h3 { 
+        background-color: white;
+    }
+
     .description {
         font-size: 30px;
     }
   }
+
   @media (min-width: 992px) {
     
   }
