@@ -84,14 +84,19 @@ main h3 {
 .rectanglenoir {
     margin-right: 10px;
     padding-top: 5px;
-    width:90px;
-    height:230px;
+    width:130px;
+    height:280px;
     text-align: center;
     font-size:110%;
     color:#17a4b0;
     background:black;   
 }
 
+
+.city {
+    display: block; 
+    font-style: italic;
+}
 main ul {
     text-align: left;
 }
@@ -127,7 +132,7 @@ figure img {
     margin-bottom: 10px;
 }
 
-.formation strong {
+h4 {
     font-size: large;
     font-weight: bold;
 } 
@@ -231,7 +236,10 @@ a {
     .contact {
         font-size: 14px;
     }
+    .rectanglenoir {
         
+        width:130px;
+    }   
 }
     
   
@@ -256,7 +264,7 @@ a {
         order: 1;
         flex:1;   
     }
-    .titre:nth-child(1) {
+    .title:nth-child(1) {
         order: 2;
         flex: 2;
     }
@@ -302,6 +310,7 @@ a {
     .rectanglenoir {
         margin-left: 20px; 
         height:130px;
+        
     }
 
     .experience-professionnelle {
