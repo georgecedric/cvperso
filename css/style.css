@@ -241,7 +241,14 @@ a {
         width:130px;
     }   
 }
-    
+@media (min-width:600px) {
+
+    .rectanglenoir {
+        height:130px;
+        
+    }
+}
+
   
 @media (min-width: 900px) {
     
@@ -372,6 +379,16 @@ a {
     .recommandation img {    
         width: 5%;   
     }
+
+    @media (min-width: 1920px) {
+        header:nth-child(1) {
+            
+            width:120%;
+        }
+    
+
+    
+}
   }
 
   
