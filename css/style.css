@@ -273,8 +273,6 @@ main ul {
     header:nth-child(1) {
         display: flex;
         order: -1;
-        padding: 20px;
-        background-color: white;
     }
 
     main:nth-child(2) {
@@ -384,7 +382,7 @@ main ul {
         margin-top: -20px;
     }
     
-    @media (min-width: 1920px) {
+    @media (min-width: 1800px) {
 
         header {
             width:120%;
