@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center; 
-    font-family: Arial, 'Times New Roman', Times;
+    font-family: Arial, sans-serif;
     background-image: radial-gradient(circle at center, white, #0b585e);        
 }
 
@@ -388,6 +388,6 @@ main ul {
             width:120%;
         } 
     }       
-  }
+
 
   
