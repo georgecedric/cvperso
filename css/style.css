@@ -3,7 +3,8 @@ body {
     flex-direction: column;
     text-align: center; 
     font-family: Arial, sans-serif;
-    background-image: radial-gradient(circle at center, white, #0b585e);        
+    background-image: radial-gradient(circle at center, white, #0b585e); 
+           
 }
 
 .bluecolumn:nth-child(3) {
@@ -150,7 +151,7 @@ h4 {
 
 .leisure img {
     box-shadow: none;
-    width:100%;
+    width:30%;
 }
 main h3 {
     text-align: left;
